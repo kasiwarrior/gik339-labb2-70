@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head>Grupp 70</head>
-    <div>
-        <input type="text" name="color" class="textfield">
-        <input type="text" name="color" class="textfield">
-        <input type="text" name="color" class="textfield">
-    </div>
+<div class="main-container">
+        <h1 class="header-title">Labb 1 - Grupp 70</h1>
+    <form class="form-box">
+                <div class="form-group">
+                    <label for="color">Färg</label>
+                    <input type="text" id="color" name="color" class="textfield">
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Innehåll</label>
+                    <input type="text" id="content" name="content" class="textfield">
+                </div>
+
+                <div class="checkbox-group">
+                    <label for="divStyle">Stil på box</label>
+                    <input type="checkbox" id="divStyle" name="divStyle" class="checkbox">
+                </div>
+                <div>
+                    <button type="button" class="remove-button">Ta bort</button>
+                </div>
+                <div class="empty-div">
+                    Tom?
+                </div>
+            </form>
 </body>
 </html>
