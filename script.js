@@ -27,13 +27,7 @@ function handleInputEvent(e) {
 }
 
 
-let colorInput = null;
-for (let i = 0; i < textfields.length; i++) {
-    if (textfields[i].name === "color") {
-        colorInput = textfields[i];
-        break;
-    }
-}
+const colorInput = document.querySelector('input[name="color"]');
 
 
 styleCheckbox.addEventListener("change", function () {
