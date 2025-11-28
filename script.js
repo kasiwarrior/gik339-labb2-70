@@ -18,7 +18,6 @@ function handleInputEvent(e) {
 
    
     const fieldName = e.target.name;
-    console.log("Name-attribut:", fieldName);
 
 
     if (fieldName === "content") {
@@ -51,6 +50,6 @@ removeButton.addEventListener("click", function () {
     
    
     emptyDiv.remove();
-    //emptyDiv.innerHTML = "";
+   
     
 });
