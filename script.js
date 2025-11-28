@@ -33,12 +33,10 @@ const colorInput = document.querySelector('input[name="color"]');
 styleCheckbox.addEventListener("change", function () {
     const chosenColor = colorInput.value;
 
-    if (styleCheckbox.checked){
+     
         emptyDiv.style.backgroundColor = chosenColor;
-    }
-    else{
-        emptyDiv.style.backgroundColor="";
-    }
+    
+   
 });
 
 
